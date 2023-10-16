@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    background-color: ;
 }
 
 .top_header {
@@ -26,7 +28,7 @@
 
 .current_page {
     color: #27187F;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -35,7 +37,7 @@
 
 .top_nav_text {
     color: #758BFD;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -89,7 +91,7 @@ article {
 h2 {
     align-self: flex-start;
     color: #27187F;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -115,9 +117,78 @@ h2 {
 
 .img_text {
     color: #133B3A;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+footer {
+    height: 239px;
+    background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 98px 105px 98px;
+}
+.social_media_frame {
+    justify-self: start;
+}
+.media_text {
+    color: #FFF;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    /* 85% */
+    letter-spacing: 0.2px;
+}
+
+.social_logos {
+    display: flex;
+    align-items: center;
+    width: 114px;
+    height: 22px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fa-brands {
+    font-size: 22px;
+    color: white;
+}
+.payment {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+.payment_card {
+    background-color: white;
+    width: 97px;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visa {
+    width: 90px;
+    height: 27px;
+
+}
+
+.mastercard {
+    width: 85px;
+    height: 49px;
+}
+
+.cash {
+    width: 93px;
+    height: 47px;
+}
+
+.installment {
+    width: 84px;
+    height: 55px;
 }
