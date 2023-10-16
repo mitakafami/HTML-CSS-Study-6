@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+                                                            /* CONTAINER */
 .container {
     width: min(100%, 1440px);
     margin: auto;
 }
 
+                                                            /* HEADER */
 .top_header {
     display: flex;
     justify-content: space-between;
@@ -61,7 +63,7 @@
     color: #758BFD;
     font-size: 32px;
 }
-
+                                                            SECTION
 section {
     display: flex;
     flex-direction: column;
@@ -69,7 +71,6 @@ section {
     align-items: center;
     height: 1052px;
     background-color: #DDEAF8;
-    ;
 }
 
 article {
@@ -106,7 +107,6 @@ h2 {
     flex-wrap: wrap;
     background-color: white;
     border-radius: 10px;
-
 }
 
 .image {
@@ -123,7 +123,7 @@ h2 {
     font-weight: 400;
     line-height: normal;
 }
-
+                                                            FOOTER
 footer {
     height: 239px;
     background-color: #758BFD;
@@ -131,9 +131,7 @@ footer {
     justify-content: space-between;
     padding: 75px 98px 105px 98px;
 }
-.social_media_frame {
-    justify-self: start;
-}
+
 .media_text {
     color: #FFF;
     font-family: 'Nanum Gothic', sans-serif;
@@ -141,7 +139,6 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    /* 85% */
     letter-spacing: 0.2px;
 }
 
@@ -158,11 +155,13 @@ footer {
     font-size: 22px;
     color: white;
 }
+
 .payment {
     display: flex;
     align-items: center;
     column-gap: 11px;
 }
+
 .payment_card {
     background-color: white;
     width: 97px;
@@ -172,10 +171,10 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .visa {
     width: 90px;
     height: 27px;
-
 }
 
 .mastercard {
